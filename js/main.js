@@ -261,7 +261,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	forms.forEach(item => {
-		item.postData();
+		postData(item);
 	});
 
 });
